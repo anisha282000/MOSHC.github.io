@@ -1,0 +1,124 @@
+header:
+    title: Mozilla Open Source Hack Club 
+    UTTARAKHAND
+    text: We’re glad, You’re here
+    button: Join Us
+    buttonlink: "#services"
+
+services:
+    title: "Services"
+    text: "We’re here for you"
+    section: services
+    list:
+      - title: "[MOSHC](https://github.com/MOSHC)"
+        desc: "Mozilla Uttrakhand Open source contributor Community club for Mozillian in Uttrakhand."
+        icon: fab fa-firefox #find more at https://fontawesome.com/icons
+      - title: "[Contribution](https://github.com/MOSHC/Awesome-OpenSource)"
+        desc: "You can contribute to any project. Just 
+        fork the repo and start working on this with your experience or learning."
+        icon: fab fa-github      
+      - title: "[Markdown](https://github.com/MOSHC/Awesome-OpenSource/blob/master/README.md)"
+        desc: "Description of the organization is here..."
+        icon: fab fa-markdown
+
+portfolio:
+    title: "Project"
+    text: "What we built is here"
+    section: project
+    
+
+timeline:
+    title: "About" 
+    text: "Lorem ipsum timeline"
+    section: timeline
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt: 
+        align: right
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+        #align: #default is left       
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt: 
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+about:
+    title: "About Us"
+    text: "our story"
+    section: about
+
+team:
+    title: "OUR AMAZING TEAM"
+    text: "Success is best when it's shared"
+    subtext: Alone we can do so little, together we can do so much. --Helen Keller
+    section: team
+    people:
+      - name: "Anisha Mamgain"
+        role: "Web Developer"
+        image: assets/img/team/anisha.jpg
+        social:
+          - url: https://twitter.com/Anisha_Mamgain
+            icon: fab fa-twitter
+          - url: https://github.com/anisha282000
+            icon: "fab fa-github"
+          - url: https://www.linkedin.com/in/anisha-mamgain-06b148193/
+            icon: fab fa-linkedin-in
+      - name: "Ankit Dobhal"
+        role: "Penetration Tester || Ethical Hacker"
+        image: assets/img/team/ankit.jfif
+        social:
+          - url: https://twitter.com/arjundobal96
+            icon: fab fa-twitter
+          - url: https://github.com/ankitdobhal
+            icon: "fab fa-github"
+          - url: https://www.linkedin.com/in/ankit-dobhal-aa237015b/
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+          
+contact:
+    title: "Contact Us"
+    text: "Questions not answered yet? We're here to help!"
+    section: contact
+    
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/Anisha_Mamgain
+        icon: "fab fa-twitter"  
+      - url: https://www.facebook.com/profile.php?id=100010219411506
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/in/anisha-mamgain-06b148193/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/ankitdobhal/Veronica
+        icon: "fab fa-github"
+      - url: https://www.instagram.com/anishamamgain/?hl=en
+        icon: "fab fa-instagram"
+
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
