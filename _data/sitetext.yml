@@ -99,25 +99,10 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
           
-contact:
-    title: "Contact Us"
-    text: "Questions not answered yet? We're here to help!"
-    section: contact
     
 footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com/Anisha_Mamgain
-        icon: "fab fa-twitter"  
-      - url: https://www.facebook.com/profile.php?id=100010219411506
-        icon: "fab fa-facebook-f"
-      - url: https://www.linkedin.com/in/anisha-mamgain-06b148193/
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/ankitdobhal/Veronica
-        icon: "fab fa-github"
-      - url: https://www.instagram.com/anishamamgain/?hl=en
-        icon: "fab fa-instagram"
-
+    social:  
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
